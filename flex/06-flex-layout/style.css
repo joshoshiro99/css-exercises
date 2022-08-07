@@ -29,11 +29,13 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
+  background-color: lightgray;
 }
 
 ul {
   display: flex;
-  gap: 10px;
+  gap: 16px;
+  color: darkgray;
 }
 
 .left-links {
@@ -46,6 +48,7 @@ li {
 
 a {
   text-decoration: none;
+
 }
 
 
@@ -58,6 +61,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
